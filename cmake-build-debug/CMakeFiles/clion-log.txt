@@ -1,0 +1,11 @@
+/home/danghuy09/clion-2018.1.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/danghuy09/CLionProjects/DelaunayTriangulation3D
+-- Build type: Debug
+-- USING CXXFLAGS = '-g -O2 -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2  -frounding-math -g'
+-- USING EXEFLAGS = ' -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,--as-needed '
+-- Targetting Unix Makefiles
+-- Using /usr/bin/c++ compiler.
+-- Requested component: MPFR
+-- Requested component: GMP
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug

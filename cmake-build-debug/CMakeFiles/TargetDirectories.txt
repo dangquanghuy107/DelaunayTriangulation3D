@@ -1,0 +1,4 @@
+/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/CMakeFiles/DelaunayTriangulation3D.dir
+/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/CMakeFiles/main.dir

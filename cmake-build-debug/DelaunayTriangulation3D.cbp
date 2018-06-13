@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DelaunayTriangulation3D"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DelaunayTriangulation3D">
+				<Option output="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/DelaunayTriangulation3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 DelaunayTriangulation3D"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DelaunayTriangulation3D/fast">
+				<Option output="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/DelaunayTriangulation3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 DelaunayTriangulation3D/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/danghuy09/CLionProjects/DelaunayTriangulation3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/glad.c">
+			<Option target="DelaunayTriangulation3D"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/main.cpp">
+			<Option target="DelaunayTriangulation3D"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/shader.h">
+			<Option target="DelaunayTriangulation3D"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_Common.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_CreateSingleSourceCGALProgram.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_Macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_SetupFlags.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_TweakFindBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_VersionUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/home/danghuy09/CLionProjects/DelaunayTriangulation3D/../../../../usr/lib/x86_64-linux-gnu/cmake/CGAL/UseCGAL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\CGAL\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
